@@ -1,0 +1,25 @@
+<html>
+
+<body>
+    <canvas width="600" height="600"></canvas>
+
+    <script>
+        let canvas = document.querySelector('canvas');
+        let context = canvas.getContext('2d');
+
+        // context.fillRect(100, 100, 400, 400);
+        // context.fillStyle = 'red';
+
+        context.beginPath();
+        context.lineWidth = 5;
+        context.rect(100, 100, 400, 400)
+        context.stroke();
+
+        context.beginPath();
+        context.arc(300, 300, 100, 0, Math.PI * 2);
+        context.lineWidth = 3;
+        context.stroke();
+    </script>
+</body>
+
+</html>
