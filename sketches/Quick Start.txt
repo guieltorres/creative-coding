@@ -1,0 +1,14 @@
+# Install the CLI tool globally
+npm install canvas-sketch-cli -g
+
+# Make a new folder to hold all your sketches
+mkdir my-sketches
+
+# Move into that folder
+cd my-sketches
+
+# Start a new sketch and open the browser
+canvas-sketch --new --open
+
+# Create a new sketch
+canvas-sketch sketch-01.js --new
