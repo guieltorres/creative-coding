@@ -12,3 +12,9 @@ canvas-sketch --new --open
 
 # Create a new sketch
 canvas-sketch sketch-01.js --new
+
+# Open an sketch
+canvas-sketch sketch-01.js
+
+#Change the output folder
+canvas-sketch sketch-01.js --output=output/01
