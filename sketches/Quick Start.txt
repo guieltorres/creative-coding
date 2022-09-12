@@ -18,3 +18,10 @@ canvas-sketch sketch-01.js
 
 #Change the output folder
 canvas-sketch sketch-01.js --output=output/01
+
+#Create an output stream (mp4)
+npm install @ffmpeg-installer/ffmpeg --global
+canvas-sketch sketch-03.js --output=output/03 --stream
+press ctrl + shift + s to start/stop
+
+
