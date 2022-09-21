@@ -7,6 +7,7 @@ const settings = {
 let text = "A";
 let fontSize = 1200;
 let fontFamily = "serif";
+let fontWeight = "normal";
 
 const sketch = () => {
   return ({ context, width, height }) => {
@@ -14,7 +15,7 @@ const sketch = () => {
     context.fillRect(0, 0, width, height);
 
     context.fillStyle = "black";
-    context.font = `${fontSize}px ${fontFamily}`;
+    context.font = `${fontWeight} ${fontSize}px ${fontFamily}`;
     context.textBaseline = "top";
     // context.textAlign = "center";
 
